@@ -3,10 +3,208 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+    </style>
+
     <title>Admin Dashboard</title>
 </head>
 <body>
-    
+    <div id="wrapper">
+        <div id="sidebar">
+            <div class="sidebarsection">
+                <div id="logo">
+                    <div><img src="img/dashboard.svg" alt="Dashboard"></div>
+                    <h1>Dashboard</h1>
+                </div>
+            </div>
+            <div class="sidebarsection">
+                <ul>
+                    <li>
+                        <div class="navimg"><img src="img/home.svg" alt="Home"></div>
+                        <h4>Home</h4>
+                    </li>
+                    <li>
+                        <div class="navimg"><img src="img/profile.svg" alt="Profile"></div>
+                        <h4>Profile</h4>
+                    </li>
+                    <li>
+                        <div class="navimg"><img src="img/messages.svg" alt="Messages"></div>
+                        <h4>Messages</h4>
+                    </li>
+                    <li>
+                        <div class="navimg"><img src="img/history.svg" alt="History"></div>
+                        <h4>History</h4>
+                    </li>
+                    <li>
+                        <div class="navimg"><img src="img/tasks.svg" alt="Tasks"></div>
+                        <h4>Tasks</h4>
+                    </li>
+                    <li>
+                        <div class="navimg"><img src="img/community.svg" alt="Communities"></div>
+                        <h4>Communities</h4>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebarsection">
+                <ul>
+                    <li>
+                        <div class="navimg"><img src="img/settings.svg" alt="Home"></div>
+                        <h4>Settings</h4>
+                    </li>
+                    <li>
+                        <div class="navimg"><img src="img/support.svg" alt="Profile"></div>
+                        <h4>Support</h4>
+                    </li>
+                    <li>
+                        <div class="navimg"><img src="img/privacy.svg" alt="Messages"></div>
+                        <h4>Privacy</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="topbar">
+            <div id="search">
+                <button type="submit" id="searchbtn"><img src="img/search.svg" alt="Search"></button>
+                <input type="search">
+            </div>
+            <div id="notifications">
+                <button><img src="img/notifications.svg" alt="Notifications"></button>
+                <div>
+                    <img src="img/avatar.jpg" alt="Lily White">
+                </div>
+                <div>
+                    <h5>Lily White</h5>
+                </div>
+            </div>
+            <div id="profile">
+                <div><img src="img/avatar.jpg" alt="Your Profile Picture"></div>
+                <div>
+                    <h3>Hi there,</h3>
+                    <h2>Lily White (@lily)</h2>
+                </div>       
+            </div>
+            <div id="buttons">
+                <button class="topbutton">New</button>
+                <button class="topbutton">Upload</button>
+                <button class="topbutton">Share</button>
+            </div>
+        </div>
+        <div id="content">
+            <div id="projects">
+                <h4>Your Projects</h4>
+                <div id="projectgrid">
+                    <div class="project">
+                        <h4>Amazing project</h4>
+                        <p>This is the project's description. Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis. Nam vel lectus tindicunt, rutrum nulla eu, ornare livero.</p>
+                        <div class="projectbuttons">
+                            <button><img src="img/fav.svg" alt="Add to Favorites"></button>
+                            <button><img src="img/watch.svg" alt="Add to Watchlist"></button>
+                            <button><img src="img/share.svg" alt="Share Project"></button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4>My App</h4>
+                        <p>This is the project's description. Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis. Nam vel lectus tindicunt, rutrum nulla eu, ornare livero.</p>
+                        <div class="projectbuttons">
+                            <button><img src="img/fav.svg" alt="Add to Favorites"></button>
+                            <button><img src="img/watch.svg" alt="Add to Watchlist"></button>
+                            <button><img src="img/share.svg" alt="Share Project"></button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4>No Traffic Maker</h4>
+                        <p>This is the project's description. Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis. Nam vel lectus tindicunt, rutrum nulla eu, ornare livero.</p>
+                        <div class="projectbuttons">
+                            <button><img src="img/fav.svg" alt="Add to Favorites"></button>
+                            <button><img src="img/watch.svg" alt="Add to Watchlist"></button>
+                            <button><img src="img/share.svg" alt="Share Project"></button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4>Cool Project</h4>
+                        <p>This is the project's description. Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis. Nam vel lectus tindicunt, rutrum nulla eu, ornare livero.</p>
+                        <div class="projectbuttons">
+                            <button><img src="img/fav.svg" alt="Add to Favorites"></button>
+                            <button><img src="img/watch.svg" alt="Add to Watchlist"></button>
+                            <button><img src="img/share.svg" alt="Share Project"></button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4>Calendar App Test</h4>
+                        <p>This is the project's description. Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis. Nam vel lectus tindicunt, rutrum nulla eu, ornare livero.</p>
+                        <div class="projectbuttons">
+                            <button><img src="img/fav.svg" alt="Add to Favorites"></button>
+                            <button><img src="img/watch.svg" alt="Add to Watchlist"></button>
+                            <button><img src="img/share.svg" alt="Share Project"></button>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <h4>Money Maker</h4>
+                        <p>This is the project's description. Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis. Nam vel lectus tindicunt, rutrum nulla eu, ornare livero.</p>
+                        <div class="projectbuttons">
+                            <button><img src="img/fav.svg" alt="Add to Favorites"></button>
+                            <button><img src="img/watch.svg" alt="Add to Watchlist"></button>
+                            <button><img src="img/share.svg" alt="Share Project"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="announcements">
+                <h4>Announcements</h4>
+                <div class="sidediv">
+                    <div class="announcediv">
+                        <h5>Site Maintenance</h5>
+                        <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                    </div>
+                    <hr>
+                    <div class="announcediv">
+                        <h5>Community Share Day</h5>
+                        <p>Nam vel lectus tindicunt, rutrum nulla eu, ornare livero. Aliquam dictum accumsan portritor...</p>
+                    </div>
+                    <hr>
+                    <div class="announcediv">
+                        <h5>Updated Privacy Policy</h5>
+                        <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                    </div>
+                </div>
+            </div>
+            <div id="trending">
+                <h4>Trending</h4>
+                <div class="sidediv">
+                    <div class="user">
+                        <div class="useravatar">
+                            <img src="img/avatarpenguin.jpg" alt="User avatar">
+                        </div>
+                        <div class="username">@jacob</div>
+                        <div class="userproject">Life Changing App</div>
+                    </div>
+                    <div class="user">
+                        <div class="useravatar">
+                            <img src="img/avatar.jpg" alt="User avatar">
+                        </div>
+                        <div class="username">@lily</div>
+                        <div class="userproject">Amazing Project</div>
+                    </div>
+                    <div class="user">
+                        <div class="useravatar">
+                            <img src="img/avatarfrog.jpg" alt="User avatar">
+                        </div>
+                        <div class="username">@alice</div>
+                        <div class="userproject">Productivity App</div>
+                    </div>
+                    <div class="user">
+                        <div class="useravatar">
+                            <img src="img/avatartiger.jpg" alt="User avatar">
+                        </div>
+                        <div class="username">@diego</div>
+                        <div class="userproject">Ad Blocker</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
